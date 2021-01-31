@@ -1,0 +1,46 @@
+<!--
+Personal project for ease of access for Pokemon Sword and Shield.
+All HTML, CSS, and JavaScript contained within the Portfolio are intellectual property of Mr. Drake Lam. 
+Neither the Portfolio nor excerpts of the underlying codes may be modified or copied in whole or part in any form for other purposes, without explicit permission granted.
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>SwSh-Searcher</title>
+		<link rel="stylesheet" type="text/css" href="style.css"/>
+		<meta charset = "UTF-8">
+	</head>
+
+	<body>
+
+		<div class="content">
+
+			<section class="indexsection">
+				<h2>SEREBII SEARCHER</h2>
+                <input type="text" id="PokemonSearch" placeholder="Name of Pokemon here" onclick="this.select()" autocomplete='off'>
+			</section>
+			
+		</div>
+
+        <script>
+            var pkmtext = document.getElementById("PokemonSearch");
+            pkmtext.addEventListener("keyup", function(event) {
+                if (event.keyCode === 13) {
+                    event.preventDefault();
+                    fnPokemonSearch();
+                }
+            });
+
+            function fnPokemonSearch() {
+                var pkmtextvalue = document.getElementById("PokemonSearch").value;
+                var swshurl = "https://www.serebii.net/pokedex-swsh/".concat(pkmtextvalue,"/");
+                console.log(swshurl);
+                // window.location.href=swshurl;
+                window.open(swshurl, '_blank')
+            }
+        </script>
+
+	</body>
+
+</html>

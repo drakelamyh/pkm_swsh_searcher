@@ -1,0 +1,49 @@
+/*
+Personal project for ease of access for Pokemon Sword and Shield.
+All HTML, CSS, and JavaScript contained within the Portfolio are intellectual property of Mr. Drake Lam.  
+Neither the Portfolio nor excerpts of the underlying codes may be modified or copied in whole or part in any form for other purposes, without explicit permission granted.
+*/
+
+body {
+    background-color: #1E1F1C;
+    display: flex;
+    justify-content: center;
+    font-family: Consolas;
+}
+
+.indexsection {
+    margin: auto 0;
+    align-items: center;
+}
+
+
+h2 {
+    color: #F92672;
+}
+
+input {
+    width: 500px;
+    height: 50px;
+    padding: 15px;
+    background-color: #272822;
+    border: 0px;
+    border-radius: 15px;
+    color: #66D9EF;
+    font-size: 22px;
+    font-family: Consolas;
+    text-transform: uppercase;
+    outline: none;
+}
+
+.buttongreen {
+	background-color: #A6E22E;
+	border: none;
+	color: #272822;
+	font-size: 0.8em;
+	padding: 15px 32px;
+	text-align: center;
+	text-decoration: none;
+	margin: 4px 2px;
+	cursor: pointer;
+	border-radius: 16px;
+}
