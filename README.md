@@ -1,4 +1,4 @@
-# pokemon_swsh_searcher
+# Pokemon Sword &amp; Shield Searcher
 Pokemon Sword &amp; Shield Searcher
 
 For those who are playing Pokemon Sword and Shield, you sometimes need to check Pokedex information. However, there are very versions of Pokemon (Gen 1 to Gen 8). You may therefore be looking at the wrong information if you were to do a simple search on the internet.
