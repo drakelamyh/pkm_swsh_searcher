@@ -7,4 +7,6 @@ Serebii.net provides useful information and is very comprehensive (in my opinion
 
 This simple search box created makes use of HTML, CSS, and JavaScript capabilities to concatenate the name of the Pokemon with the URL extension meant for Serebii.net Sword & Shield Pokedex.
 
-Head to https://drakelamyh.github.io/pkm_swsh_searcher/index.html to try out my Searcher tool.
+Head to https://drakelamyh.github.io/pkm_swsh_searcher/index.html to try out my Searcher tool!
+
+Note: All codes belong to drakelamyh. Kindly request for permission before cloning or forking a copy.
